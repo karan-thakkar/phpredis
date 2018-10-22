@@ -494,7 +494,7 @@ which will modify what is returned.
 ##### *Example*
 ~~~php
 $redis->info(); /* standard redis INFO command */
-$redis->info("COMMANDSTATS"); /* Information on the commands that have been run (>=2.6 only)
+$redis->info("COMMANDSTATS"); /* Information on the commands that have been run (>=2.6 only) */
 $redis->info("CPU"); /* just CPU information from Redis INFO */
 ~~~
 
